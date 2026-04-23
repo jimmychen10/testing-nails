@@ -1,120 +1,56 @@
 /* ═══════════════════════════════════════════════════════
-   LUXE NAILS — Gallery Module
+   CINDY HAIR SALON — Gallery Module
    ═══════════════════════════════════════════════════════ */
 
 /**
  * Gallery items.
- * 
+ *
  * HOW TO ADD YOUR OWN PHOTOS:
- *  1. Put your images in the /assets/gallery/ folder
+ *  1. Put your images in the /cindy-hair-salon-pic/ folder
  *  2. Update the `src` and `alt` fields below
- *  3. Set `category` to one of: gel | acrylic | art | classic
+ *  3. Set `category` to one of: cut | color | styling | highlights
  *  4. Optional: add `wide: true` or `tall: true` for layout variation
- * 
- * The placeholder images below use https://picsum.photos — 
- * replace them with your real photos before publishing.
  */
 const GALLERY_ITEMS = [
-  {
-    id: 1,
-    src: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&q=80",
-    thumb: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&q=70",
-    alt: "Soft pink gel nails with subtle shimmer finish",
-    caption: "Blush Shimmer Gel",
-    category: "gel"
-  },
-  {
-    id: 2,
-    src: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=80",
-    thumb: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&q=70",
-    alt: "Nude almond-shaped acrylic nails",
-    caption: "Nude Almond Acrylic",
-    category: "acrylic",
-    wide: true
-  },
-  {
-    id: 3,
-    src: "https://images.unsplash.com/photo-1604655855765-7e23040d4b65?w=600&q=80",
-    thumb: "https://images.unsplash.com/photo-1604655855765-7e23040d4b65?w=400&q=70",
-    alt: "Hand-painted floral nail art in soft pastels",
-    caption: "Pastel Floral Art",
-    category: "art"
-  },
-  {
-    id: 4,
-    src: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=600&q=80",
-    thumb: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=400&q=70",
-    alt: "Classic French manicure with white tips",
-    caption: "Classic French Manicure",
-    category: "classic",
-    tall: true
-  },
-  {
-    id: 5,
-    src: "https://images.unsplash.com/photo-1604655855765-7e23040d4b65?w=600&q=80",
-    thumb: "https://images.unsplash.com/photo-1604655855765-7e23040d4b65?w=400&q=70",
-    alt: "Chrome powder gel nails with mirror finish",
-    caption: "Rose Gold Chrome Gel",
-    category: "gel"
-  },
-  {
-    id: 6,
-    src: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&q=80",
-    thumb: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&q=70",
-    alt: "Coffin-shaped acrylic nails with glitter ombré",
-    caption: "Glitter Ombré Coffin",
-    category: "acrylic"
-  },
-  {
-    id: 7,
-    src: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=600&q=80",
-    thumb: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=400&q=70",
-    alt: "Detailed botanical nail art with hand-painted leaves",
-    caption: "Botanical Hand-Paint",
-    category: "art"
-  },
-  {
-    id: 8,
-    src: "https://images.unsplash.com/photo-1604655855765-7e23040d4b65?w=600&q=80",
-    thumb: "https://images.unsplash.com/photo-1604655855765-7e23040d4b65?w=400&q=70",
-    alt: "Deep red classic gel nails — timeless and elegant",
-    caption: "Classic Deep Red",
-    category: "classic"
-  },
-  {
-    id: 9,
-    src: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&q=80",
-    thumb: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&q=70",
-    alt: "Pastel rainbow gel nails — each nail a different color",
-    caption: "Rainbow Pastel Gel",
-    category: "gel",
-    wide: true
-  },
-  {
-    id: 10,
-    src: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=600&q=80",
-    thumb: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=400&q=70",
-    alt: "3D floral embellishments on acrylic nails",
-    caption: "3D Floral Acrylic",
-    category: "acrylic"
-  },
-  {
-    id: 11,
-    src: "https://images.unsplash.com/photo-1604655855765-7e23040d4b65?w=600&q=80",
-    thumb: "https://images.unsplash.com/photo-1604655855765-7e23040d4b65?w=400&q=70",
-    alt: "Minimalist nail art with abstract geometric lines",
-    caption: "Geometric Minimalist",
-    category: "art",
-    tall: true
-  },
-  {
-    id: 12,
-    src: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&q=80",
-    thumb: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&q=70",
-    alt: "Natural nude classic manicure with clean finish",
-    caption: "Nude Classic Polish",
-    category: "classic"
-  }
+  { id: 1,  src: "../cindy-hair-salon-pic/Image_20260410170636_2_2.jpg",  thumb: "../cindy-hair-salon-pic/Image_20260410170636_2_2.jpg",  alt: "Haircut style",       caption: "Precision Cut",         category: "cut" },
+  { id: 2,  src: "../cindy-hair-salon-pic/Image_20260410170637_3_2.jpg",  thumb: "../cindy-hair-salon-pic/Image_20260410170637_3_2.jpg",  alt: "Haircut style",       caption: "Layered Cut",           category: "cut", wide: true },
+  { id: 3,  src: "../cindy-hair-salon-pic/Image_20260410170642_4_2.jpg",  thumb: "../cindy-hair-salon-pic/Image_20260410170642_4_2.jpg",  alt: "Haircut style",       caption: "Bob Cut",               category: "cut" },
+  { id: 4,  src: "../cindy-hair-salon-pic/Image_20260410184452_5_2.jpg",  thumb: "../cindy-hair-salon-pic/Image_20260410184452_5_2.jpg",  alt: "Hair color",          caption: "Vibrant Color",         category: "color", tall: true },
+  { id: 5,  src: "../cindy-hair-salon-pic/Image_20260410184455_6_2.jpg",  thumb: "../cindy-hair-salon-pic/Image_20260410184455_6_2.jpg",  alt: "Hair color",          caption: "Full Color",            category: "color" },
+  { id: 6,  src: "../cindy-hair-salon-pic/Image_20260410184457_7_2.jpg",  thumb: "../cindy-hair-salon-pic/Image_20260410184457_7_2.jpg",  alt: "Hair color",          caption: "Color Transformation",  category: "color" },
+  { id: 7,  src: "../cindy-hair-salon-pic/Image_20260410184505_8_2.jpg",  thumb: "../cindy-hair-salon-pic/Image_20260410184505_8_2.jpg",  alt: "Hair styling",        caption: "Blowout Style",         category: "styling" },
+  { id: 8,  src: "../cindy-hair-salon-pic/Image_20260410184515_10_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410184515_10_2.jpg", alt: "Hair styling",        caption: "Elegant Updo",          category: "styling" },
+  { id: 9,  src: "../cindy-hair-salon-pic/Image_20260410184517_11_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410184517_11_2.jpg", alt: "Hair styling",        caption: "Voluminous Blowout",    category: "styling", wide: true },
+  { id: 10, src: "../cindy-hair-salon-pic/Image_20260410184522_12_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410184522_12_2.jpg", alt: "Highlights",          caption: "Sun-Kissed Highlights", category: "highlights" },
+  { id: 11, src: "../cindy-hair-salon-pic/Image_20260410184526_13_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410184526_13_2.jpg", alt: "Highlights",          caption: "Balayage Highlights",   category: "highlights", tall: true },
+  { id: 12, src: "../cindy-hair-salon-pic/Image_20260410184529_14_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410184529_14_2.jpg", alt: "Highlights",          caption: "Foil Highlights",       category: "highlights" },
+  { id: 13, src: "../cindy-hair-salon-pic/Image_20260410184532_15_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410184532_15_2.jpg", alt: "Haircut style",       caption: "Textured Cut",          category: "cut" },
+  { id: 14, src: "../cindy-hair-salon-pic/Image_20260410190336_16_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410190336_16_2.jpg", alt: "Haircut style",       caption: "Modern Cut",            category: "cut" },
+  { id: 15, src: "../cindy-hair-salon-pic/Image_20260410190338_17_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410190338_17_2.jpg", alt: "Hair color",          caption: "Ombre Color",           category: "color" },
+  { id: 16, src: "../cindy-hair-salon-pic/Image_20260410190344_18_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410190344_18_2.jpg", alt: "Hair color",          caption: "Dimensional Color",     category: "color" },
+  { id: 17, src: "../cindy-hair-salon-pic/Image_20260410190417_19_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410190417_19_2.jpg", alt: "Hair styling",        caption: "Sleek Blowout",         category: "styling" },
+  { id: 18, src: "../cindy-hair-salon-pic/Image_20260410190423_20_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410190423_20_2.jpg", alt: "Hair styling",        caption: "Bridal Style",          category: "styling" },
+  { id: 19, src: "../cindy-hair-salon-pic/Image_20260410191853_21_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410191853_21_2.jpg", alt: "Highlights",          caption: "Golden Highlights",     category: "highlights" },
+  { id: 20, src: "../cindy-hair-salon-pic/Image_20260410192242_22_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410192242_22_2.jpg", alt: "Highlights",          caption: "Lowlights & Depth",     category: "highlights" },
+  { id: 21, src: "../cindy-hair-salon-pic/Image_20260410193405_24_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410193405_24_2.jpg", alt: "Haircut style",       caption: "Fringe Cut",            category: "cut" },
+  { id: 22, src: "../cindy-hair-salon-pic/Image_20260410193410_25_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410193410_25_2.jpg", alt: "Haircut style",       caption: "Shag Cut",              category: "cut" },
+  { id: 23, src: "../cindy-hair-salon-pic/Image_20260410193414_26_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410193414_26_2.jpg", alt: "Hair color",          caption: "Warm Brunette",         category: "color" },
+  { id: 24, src: "../cindy-hair-salon-pic/Image_20260410193418_27_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410193418_27_2.jpg", alt: "Hair color",          caption: "Ash Blonde",            category: "color" },
+  { id: 25, src: "../cindy-hair-salon-pic/Image_20260410193424_28_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410193424_28_2.jpg", alt: "Hair styling",        caption: "Curls & Waves",         category: "styling" },
+  { id: 26, src: "../cindy-hair-salon-pic/Image_20260410193429_29_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410193429_29_2.jpg", alt: "Hair styling",        caption: "Soft Waves",            category: "styling" },
+  { id: 27, src: "../cindy-hair-salon-pic/Image_20260410193435_30_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410193435_30_2.jpg", alt: "Highlights",          caption: "Platinum Highlights",   category: "highlights" },
+  { id: 28, src: "../cindy-hair-salon-pic/Image_20260410193440_31_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410193440_31_2.jpg", alt: "Highlights",          caption: "Caramel Highlights",    category: "highlights" },
+  { id: 29, src: "../cindy-hair-salon-pic/Image_20260410193453_32_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410193453_32_2.jpg", alt: "Haircut style",       caption: "Lob Haircut",           category: "cut" },
+  { id: 30, src: "../cindy-hair-salon-pic/Image_20260410193534_33_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410193534_33_2.jpg", alt: "Haircut style",       caption: "Long Layers",           category: "cut" },
+  { id: 31, src: "../cindy-hair-salon-pic/Image_20260410193539_34_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410193539_34_2.jpg", alt: "Hair color",          caption: "Red Tones",             category: "color" },
+  { id: 32, src: "../cindy-hair-salon-pic/Image_20260410193549_35_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410193549_35_2.jpg", alt: "Hair color",          caption: "Chocolate Brown",       category: "color" },
+  { id: 33, src: "../cindy-hair-salon-pic/Image_20260410193556_36_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410193556_36_2.jpg", alt: "Hair styling",        caption: "Special Occasion Style",category: "styling" },
+  { id: 34, src: "../cindy-hair-salon-pic/Image_20260410220548_37_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410220548_37_2.jpg", alt: "Hair styling",        caption: "Romantic Curls",        category: "styling" },
+  { id: 35, src: "../cindy-hair-salon-pic/Image_20260410220620_38_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410220620_38_2.jpg", alt: "Highlights",          caption: "Blended Highlights",    category: "highlights" },
+  { id: 36, src: "../cindy-hair-salon-pic/Image_20260410220634_39_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410220634_39_2.jpg", alt: "Highlights",          caption: "Dimension & Glow",      category: "highlights" },
+  { id: 37, src: "../cindy-hair-salon-pic/Image_20260410220638_40_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410220638_40_2.jpg", alt: "Haircut style",       caption: "Curtain Bangs",         category: "cut" },
+  { id: 38, src: "../cindy-hair-salon-pic/Image_20260410220642_41_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410220642_41_2.jpg", alt: "Hair color",          caption: "Balayage Color",        category: "color" },
+  { id: 39, src: "../cindy-hair-salon-pic/Image_20260410220646_42_2.jpg", thumb: "../cindy-hair-salon-pic/Image_20260410220646_42_2.jpg", alt: "Hair styling",        caption: "Glam Style",            category: "styling" }
 ];
 
 /* ── State ─────────────────────────────────────────────── */

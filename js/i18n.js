@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════
-   LUXE NAILS — i18n Translations
+   CINDY HAIR SALON — i18n Translations
    Languages: English (en), Vietnamese (vi), Spanish (es),
               Chinese Simplified (zh)
    ═══════════════════════════════════════════════════════ */
@@ -9,44 +9,44 @@ const TRANSLATIONS = {
   /* ── ENGLISH ──────────────────────────────────────── */
   en: {
     // Meta (updated dynamically)
-    page_title: "Luxe Nails Studio — Nail Art & Care",
-    page_desc:  "Premium nail art, manicures, and pedicures in San Francisco. Browse our portfolio and visit us today.",
+    page_title: "Cindy Hair Salon — Hair Styling & Care",
+    page_desc:  "Premium haircuts, color, balayage, and styling in San Francisco. Browse our portfolio and visit us today.",
 
     // Brand & nav
-    brand:        "Luxe Nails",
+    brand:        "Cindy Hair",
     nav_home:     "Home",
     nav_services: "Services",
     nav_gallery:  "Gallery",
     nav_contact:  "Contact",
 
     // Hero
-    hero_eyebrow:     "Premium Nail Studio",
-    hero_title:       "Where Nails<br><em>Become Art</em>",
-    hero_subtitle:    "Hand-crafted nail designs tailored to your unique style. From classic elegance to bold artistry — we bring your vision to life.",
+    hero_eyebrow:     "Premium Hair Salon",
+    hero_title:       "Where Hair<br><em>Becomes Art</em>",
+    hero_subtitle:    "Expert hair styling tailored to your unique look. From classic cuts to vibrant color and bold transformations — we bring your vision to life.",
     hero_cta_gallery: "View Our Work",
     hero_cta_contact: "Get in Touch",
 
     // Badges
     badge_clients: "Happy Clients",
     badge_years:   "Years Experience",
-    badge_designs: "Unique Designs",
+    badge_designs: "Unique Styles",
 
     // Services section
     services_eyebrow:  "What We Offer",
     services_title:    "Our Services",
-    services_subtitle: "Every service is performed with care, precision, and premium products.",
+    services_subtitle: "Every service is performed with care, expertise, and premium products.",
 
     // Gallery section
     gallery_eyebrow:  "Portfolio",
     gallery_title:    "Our Work",
-    gallery_subtitle: "A selection of designs crafted with love in our studio.",
+    gallery_subtitle: "A selection of styles crafted with love in our salon.",
 
     // Gallery filters
-    filter_all:     "All",
-    filter_gel:     "Gel",
-    filter_acrylic: "Acrylic",
-    filter_art:     "Nail Art",
-    filter_classic: "Classic",
+    filter_all:        "All",
+    filter_cut:        "Haircut",
+    filter_color:      "Color",
+    filter_styling:    "Styling",
+    filter_highlights: "Highlights",
 
     // Testimonials section
     testimonials_eyebrow: "Kind Words",
@@ -54,7 +54,7 @@ const TRANSLATIONS = {
 
     // Contact section
     contact_eyebrow:      "Find Us",
-    contact_title:        "Visit the Studio",
+    contact_title:        "Visit the Salon",
     contact_subtitle:     "We'd love to see you. Walk-ins welcome — appointments recommended.",
     contact_address_label:"Address",
     contact_address:      "123 Blossom Lane, Suite 4<br>San Francisco, CA 94102",
@@ -70,64 +70,64 @@ const TRANSLATIONS = {
     map_btn:         "Get Directions",
 
     // Footer
-    footer_copy: "© 2025 Luxe Nails Studio. All rights reserved.",
+    footer_copy: "© 2025 Cindy Hair Salon. All rights reserved.",
 
     // Services data
     services: [
       {
-        icon: "💅",
-        name: "Classic Manicure",
-        desc: "Shaping, buffing, cuticle care, and your choice of polish for a timeless finish.",
-        price: "From $25"
+        icon: "✂️",
+        name: "Haircut & Style",
+        desc: "Precision cut and blowout tailored to your face shape, hair texture, and personal style.",
+        price: "From $45"
+      },
+      {
+        icon: "🎨",
+        name: "Balayage",
+        desc: "Hand-painted highlights for a sun-kissed, natural gradient with low-maintenance grow-out.",
+        price: "From $120"
       },
       {
         icon: "✨",
-        name: "Gel Manicure",
-        desc: "Long-lasting gel colour that stays chip-free for up to 3 weeks.",
-        price: "From $40"
+        name: "Full Hair Color",
+        desc: "Vibrant, long-lasting single-process or multi-tonal color using professional salon products.",
+        price: "From $80"
       },
       {
-        icon: "💎",
-        name: "Acrylic Extensions",
-        desc: "Custom-length acrylic nails with your choice of shape — almond, coffin, stiletto, or square.",
-        price: "From $55"
+        icon: "🌟",
+        name: "Highlights & Lowlights",
+        desc: "Dimensional foil highlights or lowlights to add depth, contrast, and movement to your hair.",
+        price: "From $95"
       },
       {
-        icon: "🌸",
-        name: "Nail Art",
-        desc: "Bespoke hand-painted designs, florals, gradients, chrome powder, and embellishments.",
-        price: "From $10 / nail"
-      },
-      {
-        icon: "🦶",
-        name: "Pedicure",
-        desc: "Relaxing foot soak, exfoliation, massage, and polish for beautifully pampered feet.",
+        icon: "💨",
+        name: "Blowout & Styling",
+        desc: "Smooth, voluminous blowout or special-occasion updo for a polished, salon-fresh look.",
         price: "From $35"
       },
       {
-        icon: "🔧",
-        name: "Nail Repair",
-        desc: "Quick and seamless repair for broken or damaged nails using matching gel or acrylic.",
-        price: "From $8"
+        icon: "💎",
+        name: "Keratin Treatment",
+        desc: "Smoothing keratin treatment that eliminates frizz and leaves hair silky-straight for months.",
+        price: "From $150"
       }
     ],
 
     // Testimonials data
     testimonials: [
       {
-        text: "Absolutely love my nails every single time I come here. The attention to detail is unmatched — I always leave feeling like a queen!",
+        text: "Absolutely love my hair every single time I come here. Cindy always knows exactly what I want — I always leave feeling like a new woman!",
         author: "Jessica M.",
         initial: "J",
         tag: "Loyal Client"
       },
       {
-        text: "The nail art they did for my wedding was beyond anything I imagined. Intricate, delicate, and it lasted the entire honeymoon.",
+        text: "The balayage she did for my wedding was beyond anything I imagined. So natural-looking, and it held up beautifully through the entire reception.",
         author: "Sophie T.",
         initial: "S",
         tag: "Bridal Client"
       },
       {
-        text: "Finally found a salon that takes hygiene seriously and is genuinely kind. My gel nails have been perfect for over 4 weeks!",
+        text: "Finally found a salon that truly listens and gets my hair. My color has never looked better and it's been weeks without any fading!",
         author: "Mia L.",
         initial: "M",
         tag: "Regular Client"
@@ -137,44 +137,44 @@ const TRANSLATIONS = {
 
   /* ── VIETNAMESE ───────────────────────────────────── */
   vi: {
-    page_title: "Luxe Nails Studio — Nghệ Thuật Làm Móng",
-    page_desc:  "Dịch vụ làm móng cao cấp tại San Francisco. Khám phá bộ sưu tập và ghé thăm chúng tôi hôm nay.",
+    page_title: "Cindy Hair Salon — Tạo Kiểu Tóc & Chăm Sóc",
+    page_desc:  "Dịch vụ cắt tóc, nhuộm màu và tạo kiểu cao cấp tại San Francisco. Khám phá bộ sưu tập và ghé thăm chúng tôi hôm nay.",
 
-    brand:        "Luxe Nails",
+    brand:        "Cindy Hair",
     nav_home:     "Trang Chủ",
     nav_services: "Dịch Vụ",
     nav_gallery:  "Thư Viện",
     nav_contact:  "Liên Hệ",
 
-    hero_eyebrow:     "Studio Làm Móng Cao Cấp",
-    hero_title:       "Nơi Móng Tay<br><em>Trở Thành Nghệ Thuật</em>",
-    hero_subtitle:    "Thiết kế móng tay thủ công, phù hợp với phong cách riêng của bạn. Từ sự thanh lịch cổ điển đến nghệ thuật táo bạo — chúng tôi biến ý tưởng của bạn thành hiện thực.",
+    hero_eyebrow:     "Salon Tóc Cao Cấp",
+    hero_title:       "Nơi Mái Tóc<br><em>Trở Thành Nghệ Thuật</em>",
+    hero_subtitle:    "Tạo kiểu tóc chuyên nghiệp, phù hợp với phong cách riêng của bạn. Từ kiểu cắt cổ điển đến màu sắc rực rỡ — chúng tôi biến ý tưởng của bạn thành hiện thực.",
     hero_cta_gallery: "Xem Tác Phẩm",
     hero_cta_contact: "Liên Hệ Ngay",
 
     badge_clients: "Khách Hài Lòng",
     badge_years:   "Năm Kinh Nghiệm",
-    badge_designs: "Mẫu Thiết Kế",
+    badge_designs: "Kiểu Tóc Độc Đáo",
 
     services_eyebrow:  "Chúng Tôi Cung Cấp",
     services_title:    "Dịch Vụ",
-    services_subtitle: "Mọi dịch vụ đều được thực hiện với sự cẩn thận, tỉ mỉ và sản phẩm cao cấp.",
+    services_subtitle: "Mọi dịch vụ đều được thực hiện với sự chuyên nghiệp, tỉ mỉ và sản phẩm cao cấp.",
 
     gallery_eyebrow:  "Bộ Sưu Tập",
     gallery_title:    "Tác Phẩm Của Chúng Tôi",
-    gallery_subtitle: "Những thiết kế được tạo ra với tâm huyết tại studio của chúng tôi.",
+    gallery_subtitle: "Những kiểu tóc được tạo ra với tâm huyết tại salon của chúng tôi.",
 
-    filter_all:     "Tất Cả",
-    filter_gel:     "Gel",
-    filter_acrylic: "Acrylic",
-    filter_art:     "Nghệ Thuật",
-    filter_classic: "Cổ Điển",
+    filter_all:        "Tất Cả",
+    filter_cut:        "Cắt Tóc",
+    filter_color:      "Nhuộm Màu",
+    filter_styling:    "Tạo Kiểu",
+    filter_highlights: "Tẩy Highlight",
 
     testimonials_eyebrow: "Lời Khách Hàng",
     testimonials_title:   "Tình Cảm Khách Hàng",
 
     contact_eyebrow:      "Tìm Chúng Tôi",
-    contact_title:        "Ghé Thăm Studio",
+    contact_title:        "Ghé Thăm Salon",
     contact_subtitle:     "Chúng tôi rất vui được đón tiếp bạn. Chấp nhận khách vãng lai — nên đặt lịch trước.",
     contact_address_label:"Địa Chỉ",
     contact_address:      "123 Blossom Lane, Suite 4<br>San Francisco, CA 94102",
@@ -188,62 +188,62 @@ const TRANSLATIONS = {
     map_placeholder: "Mở Trong Google Maps",
     map_btn:         "Chỉ Đường",
 
-    footer_copy: "© 2025 Luxe Nails Studio. Bảo lưu mọi quyền.",
+    footer_copy: "© 2025 Cindy Hair Salon. Bảo lưu mọi quyền.",
 
     services: [
       {
-        icon: "💅",
-        name: "Sơn Móng Cổ Điển",
-        desc: "Giũa, đánh bóng, chăm sóc da tay và sơn màu theo yêu cầu để có vẻ ngoài hoàn hảo.",
-        price: "Từ $25"
+        icon: "✂️",
+        name: "Cắt & Tạo Kiểu",
+        desc: "Cắt tóc và sấy tạo kiểu theo khuôn mặt, chất tóc và phong cách cá nhân của bạn.",
+        price: "Từ $45"
+      },
+      {
+        icon: "🎨",
+        name: "Balayage",
+        desc: "Kỹ thuật nhuộm tay tạo hiệu ứng tóc tự nhiên, tôn dáng với phần chân tóc dễ dặm lại.",
+        price: "Từ $120"
       },
       {
         icon: "✨",
-        name: "Sơn Gel",
-        desc: "Màu gel bền lâu, không bong tróc trong suốt 3 tuần.",
-        price: "Từ $40"
+        name: "Nhuộm Toàn Đầu",
+        desc: "Màu sắc rực rỡ, bền lâu — nhuộm đơn màu hoặc đa tông bằng sản phẩm chuyên nghiệp.",
+        price: "Từ $80"
       },
       {
-        icon: "💎",
-        name: "Móng Acrylic",
-        desc: "Móng acrylic theo chiều dài và hình dạng bạn thích — hạnh nhân, quan tài, stiletto hoặc vuông.",
-        price: "Từ $55"
+        icon: "🌟",
+        name: "Highlight & Lowlight",
+        desc: "Kỹ thuật foil tạo chiều sâu và chuyển động cho mái tóc với highlight và lowlight cân đối.",
+        price: "Từ $95"
       },
       {
-        icon: "🌸",
-        name: "Vẽ Móng Nghệ Thuật",
-        desc: "Thiết kế vẽ tay độc đáo, hoa, gradient, bột chrome và trang trí.",
-        price: "Từ $10 / móng"
-      },
-      {
-        icon: "🦶",
-        name: "Chăm Sóc Chân",
-        desc: "Ngâm chân thư giãn, tẩy tế bào chết, massage và sơn móng cho đôi chân mềm mại.",
+        icon: "💨",
+        name: "Sấy & Tạo Kiểu",
+        desc: "Sấy phồng mượt mà hoặc búi tóc cho dịp đặc biệt, mang lại vẻ ngoài hoàn hảo như vừa rời salon.",
         price: "Từ $35"
       },
       {
-        icon: "🔧",
-        name: "Sửa Móng",
-        desc: "Sửa nhanh và liền mạch cho móng bị gãy hoặc hỏng bằng gel hoặc acrylic phù hợp.",
-        price: "Từ $8"
+        icon: "💎",
+        name: "Phủ Keratin",
+        desc: "Liệu trình keratin làm thẳng tóc, khử xoăn và mang lại mái tóc mượt bóng kéo dài nhiều tháng.",
+        price: "Từ $150"
       }
     ],
 
     testimonials: [
       {
-        text: "Tôi luôn yêu thích móng tay của mình mỗi khi đến đây. Sự tỉ mỉ không nơi nào sánh được — tôi luôn ra về với cảm giác tuyệt vời!",
+        text: "Tôi luôn yêu thích mái tóc của mình mỗi khi đến đây. Cindy luôn hiểu chính xác điều tôi muốn — tôi luôn ra về với cảm giác hoàn toàn mới!",
         author: "Jessica M.",
         initial: "J",
         tag: "Khách Thân Thiết"
       },
       {
-        text: "Móng nghệ thuật họ làm cho đám cưới của tôi vượt xa mọi trí tưởng tượng. Tinh tế, thanh nhã và giữ bền suốt tuần trăng mật.",
+        text: "Kiểu balayage cô ấy làm cho đám cưới của tôi vượt xa mọi trí tưởng tượng. Rất tự nhiên và giữ bền suốt buổi tiệc.",
         author: "Sophie T.",
         initial: "S",
         tag: "Khách Cô Dâu"
       },
       {
-        text: "Cuối cùng đã tìm được salon vừa vệ sinh vừa thân thiện. Móng gel của tôi hoàn hảo suốt hơn 4 tuần!",
+        text: "Cuối cùng đã tìm được salon thực sự lắng nghe và hiểu tóc của tôi. Màu tóc chưa bao giờ đẹp đến vậy và đã mấy tuần mà không phai!",
         author: "Mia L.",
         initial: "M",
         tag: "Khách Thường Xuyên"
@@ -253,44 +253,44 @@ const TRANSLATIONS = {
 
   /* ── SPANISH ──────────────────────────────────────── */
   es: {
-    page_title: "Luxe Nails Studio — Arte y Cuidado de Uñas",
-    page_desc:  "Servicios premium de uñas en San Francisco. Explora nuestro portafolio y visítanos hoy.",
+    page_title: "Cindy Hair Salon — Estilismo y Cuidado Capilar",
+    page_desc:  "Servicios premium de corte, color y estilismo en San Francisco. Explora nuestro portafolio y visítanos hoy.",
 
-    brand:        "Luxe Nails",
+    brand:        "Cindy Hair",
     nav_home:     "Inicio",
     nav_services: "Servicios",
     nav_gallery:  "Galería",
     nav_contact:  "Contacto",
 
-    hero_eyebrow:     "Studio de Uñas Premium",
-    hero_title:       "Donde las Uñas<br><em>Se Vuelven Arte</em>",
-    hero_subtitle:    "Diseños de uñas artesanales adaptados a tu estilo único. Desde la elegancia clásica hasta el arte más atrevido — hacemos realidad tu visión.",
+    hero_eyebrow:     "Salón de Belleza Premium",
+    hero_title:       "Donde el Cabello<br><em>Se Vuelve Arte</em>",
+    hero_subtitle:    "Estilismo experto adaptado a tu look único. Desde cortes clásicos hasta colores vibrantes y transformaciones audaces — hacemos realidad tu visión.",
     hero_cta_gallery: "Ver Nuestro Trabajo",
     hero_cta_contact: "Contáctanos",
 
     badge_clients: "Clientes Felices",
     badge_years:   "Años de Experiencia",
-    badge_designs: "Diseños Únicos",
+    badge_designs: "Estilos Únicos",
 
     services_eyebrow:  "Lo Que Ofrecemos",
     services_title:    "Nuestros Servicios",
-    services_subtitle: "Cada servicio se realiza con cuidado, precisión y productos premium.",
+    services_subtitle: "Cada servicio se realiza con cuidado, experiencia y productos premium.",
 
     gallery_eyebrow:  "Portafolio",
     gallery_title:    "Nuestro Trabajo",
-    gallery_subtitle: "Una selección de diseños creados con amor en nuestro studio.",
+    gallery_subtitle: "Una selección de estilos creados con amor en nuestro salón.",
 
-    filter_all:     "Todo",
-    filter_gel:     "Gel",
-    filter_acrylic: "Acrílico",
-    filter_art:     "Arte",
-    filter_classic: "Clásico",
+    filter_all:        "Todo",
+    filter_cut:        "Corte",
+    filter_color:      "Color",
+    filter_styling:    "Estilismo",
+    filter_highlights: "Mechas",
 
     testimonials_eyebrow: "Palabras Amables",
     testimonials_title:   "Lo Que Dicen",
 
     contact_eyebrow:      "Encuéntranos",
-    contact_title:        "Visita el Studio",
+    contact_title:        "Visita el Salón",
     contact_subtitle:     "Nos encantaría verte. Se aceptan visitas sin cita — se recomienda reservar.",
     contact_address_label:"Dirección",
     contact_address:      "123 Blossom Lane, Suite 4<br>San Francisco, CA 94102",
@@ -304,62 +304,62 @@ const TRANSLATIONS = {
     map_placeholder: "Abrir en Google Maps",
     map_btn:         "Cómo Llegar",
 
-    footer_copy: "© 2025 Luxe Nails Studio. Todos los derechos reservados.",
+    footer_copy: "© 2025 Cindy Hair Salon. Todos los derechos reservados.",
 
     services: [
       {
-        icon: "💅",
-        name: "Manicura Clásica",
-        desc: "Limado, pulido, cuidado de cutículas y esmalte a elección para un acabado atemporal.",
-        price: "Desde $25"
+        icon: "✂️",
+        name: "Corte & Estilismo",
+        desc: "Corte de precisión y secado adaptado a la forma de tu rostro, textura del cabello y estilo personal.",
+        price: "Desde $45"
+      },
+      {
+        icon: "🎨",
+        name: "Balayage",
+        desc: "Técnica de coloración a mano que crea un degradado natural con un crecimiento de raíz fácil de mantener.",
+        price: "Desde $120"
       },
       {
         icon: "✨",
-        name: "Manicura de Gel",
-        desc: "Color en gel duradero que se mantiene sin astillas hasta 3 semanas.",
-        price: "Desde $40"
+        name: "Coloración Completa",
+        desc: "Color vibrante y duradero en tono único o multi-tonal usando productos profesionales de salón.",
+        price: "Desde $80"
       },
       {
-        icon: "💎",
-        name: "Extensiones Acrílicas",
-        desc: "Uñas de acrílico a medida con tu forma preferida: almendra, ataúd, stiletto o cuadrada.",
-        price: "Desde $55"
+        icon: "🌟",
+        name: "Mechas y Reflejos",
+        desc: "Mechas o reflejos con papel aluminio que añaden profundidad, contraste y movimiento a tu cabello.",
+        price: "Desde $95"
       },
       {
-        icon: "🌸",
-        name: "Arte en Uñas",
-        desc: "Diseños pintados a mano, florales, degradados, polvo cromado y adornos exclusivos.",
-        price: "Desde $10 / uña"
-      },
-      {
-        icon: "🦶",
-        name: "Pedicura",
-        desc: "Baño de pies relajante, exfoliación, masaje y esmalte para unos pies perfectos.",
+        icon: "💨",
+        name: "Secado & Peinado",
+        desc: "Secado suave y voluminoso o recogido para ocasiones especiales para un look impecable.",
         price: "Desde $35"
       },
       {
-        icon: "🔧",
-        name: "Reparación",
-        desc: "Reparación rápida y sin costuras para uñas rotas o dañadas con gel o acrílico a juego.",
-        price: "Desde $8"
+        icon: "💎",
+        name: "Tratamiento de Keratina",
+        desc: "Tratamiento alisador de keratina que elimina el frizz y deja el cabello sedoso y liso durante meses.",
+        price: "Desde $150"
       }
     ],
 
     testimonials: [
       {
-        text: "¡Amo mis uñas cada vez que vengo aquí! La atención al detalle es incomparable — siempre me voy sintiéndome una reina.",
+        text: "¡Amo mi cabello cada vez que vengo aquí! Cindy siempre sabe exactamente lo que quiero — siempre me voy sintiéndome una nueva mujer.",
         author: "Jessica M.",
         initial: "J",
         tag: "Cliente Fiel"
       },
       {
-        text: "El nail art para mi boda superó todo lo que imaginé. Intrincado, delicado y duró todo el viaje de luna de miel.",
+        text: "El balayage que hizo para mi boda superó todo lo que imaginé. Tan natural y se mantuvo perfecto durante toda la recepción.",
         author: "Sophie T.",
         initial: "S",
         tag: "Cliente de Bodas"
       },
       {
-        text: "¡Por fin encontré un salón que se toma la higiene en serio y es genuinamente amable! Mis uñas de gel han estado perfectas por más de 4 semanas.",
+        text: "¡Por fin encontré un salón que de verdad escucha y entiende mi cabello! Mi color nunca ha lucido mejor y han pasado semanas sin desteñirse.",
         author: "Mia L.",
         initial: "M",
         tag: "Cliente Regular"
@@ -369,44 +369,44 @@ const TRANSLATIONS = {
 
   /* ── CHINESE (SIMPLIFIED) ─────────────────────────── */
   zh: {
-    page_title: "Luxe Nails Studio — 美甲艺术与护理",
-    page_desc:  "旧金山高端美甲服务。浏览我们的作品集，今天就来拜访我们吧。",
+    page_title: "Cindy Hair Salon — 专业美发造型",
+    page_desc:  "旧金山高端剪发、染色、挑染和造型服务。浏览我们的作品集，今天就来拜访我们吧。",
 
-    brand:        "Luxe Nails",
+    brand:        "Cindy Hair",
     nav_home:     "首页",
     nav_services: "服务",
     nav_gallery:  "作品集",
     nav_contact:  "联系我们",
 
-    hero_eyebrow:     "高端美甲工作室",
-    hero_title:       "让指尖<br><em>成为艺术</em>",
-    hero_subtitle:    "量身定制的手工美甲设计，完美契合您的独特风格。从经典优雅到大胆艺术——我们让您的想象成为现实。",
+    hero_eyebrow:     "高端美发沙龙",
+    hero_title:       "让发丝<br><em>成为艺术</em>",
+    hero_subtitle:    "专业发型设计，完美契合您的独特风格。从经典剪裁到亮丽染色与大胆变身——我们让您的想象成为现实。",
     hero_cta_gallery: "查看作品",
     hero_cta_contact: "立即联系",
 
     badge_clients: "满意顾客",
     badge_years:   "年从业经验",
-    badge_designs: "独特设计",
+    badge_designs: "独特发型",
 
     services_eyebrow:  "我们提供",
     services_title:    "服务项目",
-    services_subtitle: "每一项服务都以精心、细致和优质产品完成。",
+    services_subtitle: "每一项服务都以专业、细致和优质产品完成。",
 
     gallery_eyebrow:  "作品展示",
     gallery_title:    "我们的作品",
-    gallery_subtitle: "精选在工作室用心打造的美甲设计。",
+    gallery_subtitle: "精选在沙龙用心打造的发型设计。",
 
-    filter_all:     "全部",
-    filter_gel:     "光疗甲",
-    filter_acrylic: "水晶甲",
-    filter_art:     "美甲艺术",
-    filter_classic: "经典款",
+    filter_all:        "全部",
+    filter_cut:        "剪发",
+    filter_color:      "染发",
+    filter_styling:    "造型",
+    filter_highlights: "挑染",
 
     testimonials_eyebrow: "顾客好评",
     testimonials_title:   "顾客之声",
 
     contact_eyebrow:      "找到我们",
-    contact_title:        "来访工作室",
+    contact_title:        "来访沙龙",
     contact_subtitle:     "欢迎您的到来。接受散客——建议提前预约。",
     contact_address_label:"地址",
     contact_address:      "123 Blossom Lane, Suite 4<br>旧金山, CA 94102",
@@ -420,62 +420,62 @@ const TRANSLATIONS = {
     map_placeholder: "在谷歌地图中打开",
     map_btn:         "获取路线",
 
-    footer_copy: "© 2025 Luxe Nails Studio。保留所有权利。",
+    footer_copy: "© 2025 Cindy Hair Salon。保留所有权利。",
 
     services: [
       {
-        icon: "💅",
-        name: "经典美甲",
-        desc: "修形、抛光、护理角质层，搭配您选择的甲油，打造永恒完美的效果。",
-        price: "起价 $25"
+        icon: "✂️",
+        name: "剪发造型",
+        desc: "根据您的脸型、发质和个人风格量身定制精准剪发与吹造型。",
+        price: "起价 $45"
+      },
+      {
+        icon: "🎨",
+        name: "Balayage 手染",
+        desc: "手工涂抹技术打造自然渐变效果，阳光感十足，且发根新生后依然好看。",
+        price: "起价 $120"
       },
       {
         icon: "✨",
-        name: "光疗美甲",
-        desc: "持久光疗甲色，不易脱落，效果可维持长达三周。",
-        price: "起价 $40"
+        name: "全头染色",
+        desc: "使用专业沙龙产品进行单色或多色染发，色泽鲜亮、持久不褪。",
+        price: "起价 $80"
       },
       {
-        icon: "💎",
-        name: "水晶延长甲",
-        desc: "可定制长度的水晶甲，提供杏仁形、棺材形、尖形或方形等多种造型。",
-        price: "起价 $55"
+        icon: "🌟",
+        name: "挑染与低调染",
+        desc: "铝箔挑染或低调染为发丝增添层次感、对比度与动感效果。",
+        price: "起价 $95"
       },
       {
-        icon: "🌸",
-        name: "美甲艺术",
-        desc: "手绘定制图案，包括花卉、渐变、镭射粉以及各种饰品点缀。",
-        price: "起价 $10 / 指"
-      },
-      {
-        icon: "🦶",
-        name: "足部护理",
-        desc: "放松泡脚、去角质、按摩及涂甲，让双脚焕然一新。",
+        icon: "💨",
+        name: "吹干造型",
+        desc: "顺滑蓬松的吹发或特别场合的盘发造型，让您精致光彩如刚离开沙龙。",
         price: "起价 $35"
       },
       {
-        icon: "🔧",
-        name: "美甲修复",
-        desc: "使用匹配的光疗或水晶材料，快速无缝修复断裂或受损的指甲。",
-        price: "起价 $8"
+        icon: "💎",
+        name: "角蛋白护理",
+        desc: "角蛋白顺滑护理消除毛躁，让头发持续顺滑如丝数月之久。",
+        price: "起价 $150"
       }
     ],
 
     testimonials: [
       {
-        text: "每次来这里都爱死我的指甲了！对细节的关注无与伦比——每次离开都感觉自己像女王！",
+        text: "每次来这里都爱死我的发型了！Cindy总是精准理解我的想法——每次离开都感觉自己焕然一新！",
         author: "Jessica M.",
         initial: "J",
         tag: "忠实顾客"
       },
       {
-        text: "婚礼当天的美甲超出了我所有的想象。精致、优雅，整个蜜月期间都完好如初。",
+        text: "婚礼当天的balayage超出了我所有的想象。如此自然，整场婚礼都完美无瑕。",
         author: "Sophie T.",
         initial: "S",
         tag: "新娘顾客"
       },
       {
-        text: "终于找到了一家既重视卫生又真诚友善的美甲店！我的光疗甲已经完美保持了四周多！",
+        text: "终于找到了一家真正倾听并了解我发质的沙龙！发色从未如此好看，而且已经好几周没有褪色！",
         author: "Mia L.",
         initial: "M",
         tag: "常客"
@@ -487,7 +487,7 @@ const TRANSLATIONS = {
 /* ── Language detection & application ──────────────────── */
 
 const SUPPORTED_LANGS = Object.keys(TRANSLATIONS);
-const STORAGE_KEY     = "luxe_nails_lang";
+const STORAGE_KEY     = "cindy_hair_lang";
 
 /**
  * Detect language:
