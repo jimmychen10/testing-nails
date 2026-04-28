@@ -16,12 +16,13 @@ const TRANSLATIONS = {
     brand:        "Cindy Hair",
     nav_home:     "Home",
     nav_services: "Services",
+    nav_about:    "About",
     nav_gallery:  "Gallery",
     nav_contact:  "Contact",
 
     // Hero
     hero_eyebrow:     "Premium Hair Salon",
-    hero_title:       "Where Hair<br><em>Becomes Art</em>",
+    hero_title:       "Cindy<br><em>Hair Salon</em>",
     hero_subtitle:    "Expert hair styling tailored to your unique look. From classic cuts to vibrant color and bold transformations — we bring your vision to life.",
     hero_cta_gallery: "View Our Work",
     hero_cta_contact: "Get in Touch",
@@ -41,6 +42,21 @@ const TRANSLATIONS = {
     gallery_title:    "Our Work",
     gallery_subtitle: "A selection of styles crafted with love in our salon.",
 
+    // About section
+    about_eyebrow:      "About",
+    about_title:        "Meet Cindy",
+    about_lead:         "Passionate about hair and dedicated to making every client feel their most confident — that's what drives Cindy every single day.",
+    about_stat_years:   "Years of Experience",
+    about_stat_clients: "Happy Clients",
+    about_stat_passion: "Passion",
+    about_belief_title: "My Belief",
+    about_belief:       "Hair is more than just a style — it's an expression of who you are. I believe every person deserves a look that makes them feel beautiful, seen, and truly themselves. I take time to listen, understand your lifestyle, and craft something made just for you.",
+    tag_cuts:      "Precision Cuts",
+    tag_color:     "Color Specialist",
+    tag_balayage:  "Balayage Expert",
+    tag_bridal:    "Bridal Styling",
+    tag_keratin:   "Keratin Treatments",
+
     // Gallery filters
     filter_all:        "All",
     filter_cut:        "Haircut",
@@ -57,13 +73,13 @@ const TRANSLATIONS = {
     contact_title:        "Visit the Salon",
     contact_subtitle:     "We'd love to see you. Walk-ins welcome — appointments recommended.",
     contact_address_label:"Address",
-    contact_address:      "123 Blossom Lane, Suite 4<br>San Francisco, CA 94102",
+    contact_address:      "2836 San Bruno Ave<br>San Francisco, CA 94134",
     contact_phone_label:  "Phone",
     contact_hours_label:  "Hours",
-    contact_social_label: "Follow Us",
-    hours_mon_fri:        "Mon – Fri",
-    hours_sat:            "Saturday",
+    hours_mon_sat:        "Mon, Wed – Sat",
     hours_sun:            "Sunday",
+    hours_tue:            "Tuesday",
+    hours_closed_label:   "Closed",
 
     // Map
     map_placeholder: "Open in Google Maps",
@@ -143,11 +159,12 @@ const TRANSLATIONS = {
     brand:        "Cindy Hair",
     nav_home:     "Trang Chủ",
     nav_services: "Dịch Vụ",
+    nav_about:    "Về Chúng Tôi",
     nav_gallery:  "Thư Viện",
     nav_contact:  "Liên Hệ",
 
     hero_eyebrow:     "Salon Tóc Cao Cấp",
-    hero_title:       "Nơi Mái Tóc<br><em>Trở Thành Nghệ Thuật</em>",
+    hero_title:       "Cindy<br><em>Hair Salon</em>",
     hero_subtitle:    "Tạo kiểu tóc chuyên nghiệp, phù hợp với phong cách riêng của bạn. Từ kiểu cắt cổ điển đến màu sắc rực rỡ — chúng tôi biến ý tưởng của bạn thành hiện thực.",
     hero_cta_gallery: "Xem Tác Phẩm",
     hero_cta_contact: "Liên Hệ Ngay",
@@ -164,6 +181,20 @@ const TRANSLATIONS = {
     gallery_title:    "Tác Phẩm Của Chúng Tôi",
     gallery_subtitle: "Những kiểu tóc được tạo ra với tâm huyết tại salon của chúng tôi.",
 
+    about_eyebrow:      "Giới Thiệu",
+    about_title:        "Gặp Gỡ Cindy",
+    about_lead:         "Đam mê với nghề tóc và luôn tận tâm giúp mỗi khách hàng tự tin nhất — đó là điều thúc đẩy Cindy mỗi ngày.",
+    about_stat_years:   "Năm Kinh Nghiệm",
+    about_stat_clients: "Khách Hài Lòng",
+    about_stat_passion: "Đam Mê",
+    about_belief_title: "Triết Lý Của Tôi",
+    about_belief:       "Mái tóc không chỉ là một kiểu dáng — đó là biểu hiện của con người bạn. Tôi tin rằng mỗi người đều xứng đáng có một diện mạo giúp họ cảm thấy đẹp, được nhìn nhận và thực sự là chính mình. Tôi luôn lắng nghe, hiểu phong cách sống của bạn và tạo nên điều gì đó dành riêng cho bạn.",
+    tag_cuts:      "Cắt Tóc Chính Xác",
+    tag_color:     "Chuyên Gia Nhuộm Màu",
+    tag_balayage:  "Chuyên Gia Balayage",
+    tag_bridal:    "Tạo Kiểu Cô Dâu",
+    tag_keratin:   "Phủ Keratin",
+
     filter_all:        "Tất Cả",
     filter_cut:        "Cắt Tóc",
     filter_color:      "Nhuộm Màu",
@@ -177,13 +208,13 @@ const TRANSLATIONS = {
     contact_title:        "Ghé Thăm Salon",
     contact_subtitle:     "Chúng tôi rất vui được đón tiếp bạn. Chấp nhận khách vãng lai — nên đặt lịch trước.",
     contact_address_label:"Địa Chỉ",
-    contact_address:      "123 Blossom Lane, Suite 4<br>San Francisco, CA 94102",
+    contact_address:      "2836 San Bruno Ave<br>San Francisco, CA 94134",
     contact_phone_label:  "Điện Thoại",
     contact_hours_label:  "Giờ Mở Cửa",
-    contact_social_label: "Theo Dõi Chúng Tôi",
-    hours_mon_fri:        "Thứ 2 – Thứ 6",
-    hours_sat:            "Thứ Bảy",
+    hours_mon_sat:        "Thứ 2, Thứ 4 – Thứ 7",
     hours_sun:            "Chủ Nhật",
+    hours_tue:            "Thứ Ba",
+    hours_closed_label:   "Đóng Cửa",
 
     map_placeholder: "Mở Trong Google Maps",
     map_btn:         "Chỉ Đường",
@@ -259,11 +290,12 @@ const TRANSLATIONS = {
     brand:        "Cindy Hair",
     nav_home:     "Inicio",
     nav_services: "Servicios",
+    nav_about:    "Sobre Mí",
     nav_gallery:  "Galería",
     nav_contact:  "Contacto",
 
     hero_eyebrow:     "Salón de Belleza Premium",
-    hero_title:       "Donde el Cabello<br><em>Se Vuelve Arte</em>",
+    hero_title:       "Cindy<br><em>Hair Salon</em>",
     hero_subtitle:    "Estilismo experto adaptado a tu look único. Desde cortes clásicos hasta colores vibrantes y transformaciones audaces — hacemos realidad tu visión.",
     hero_cta_gallery: "Ver Nuestro Trabajo",
     hero_cta_contact: "Contáctanos",
@@ -280,6 +312,20 @@ const TRANSLATIONS = {
     gallery_title:    "Nuestro Trabajo",
     gallery_subtitle: "Una selección de estilos creados con amor en nuestro salón.",
 
+    about_eyebrow:      "Sobre Mí",
+    about_title:        "Conoce a Cindy",
+    about_lead:         "Apasionada por el cabello y dedicada a hacer que cada cliente se sienta más segura de sí misma — eso es lo que impulsa a Cindy cada día.",
+    about_stat_years:   "Años de Experiencia",
+    about_stat_clients: "Clientes Felices",
+    about_stat_passion: "Pasión",
+    about_belief_title: "Mi Filosofía",
+    about_belief:       "El cabello es más que un estilo — es una expresión de quién eres. Creo que toda persona merece un look que la haga sentirse hermosa, vista y verdaderamente ella misma. Me tomo el tiempo para escuchar, entender tu estilo de vida y crear algo hecho especialmente para ti.",
+    tag_cuts:      "Cortes de Precisión",
+    tag_color:     "Especialista en Color",
+    tag_balayage:  "Experta en Balayage",
+    tag_bridal:    "Peinados de Novia",
+    tag_keratin:   "Tratamientos de Keratina",
+
     filter_all:        "Todo",
     filter_cut:        "Corte",
     filter_color:      "Color",
@@ -293,13 +339,13 @@ const TRANSLATIONS = {
     contact_title:        "Visita el Salón",
     contact_subtitle:     "Nos encantaría verte. Se aceptan visitas sin cita — se recomienda reservar.",
     contact_address_label:"Dirección",
-    contact_address:      "123 Blossom Lane, Suite 4<br>San Francisco, CA 94102",
+    contact_address:      "2836 San Bruno Ave<br>San Francisco, CA 94134",
     contact_phone_label:  "Teléfono",
     contact_hours_label:  "Horario",
-    contact_social_label: "Síguenos",
-    hours_mon_fri:        "Lun – Vie",
-    hours_sat:            "Sábado",
+    hours_mon_sat:        "Lun, Mié – Sáb",
     hours_sun:            "Domingo",
+    hours_tue:            "Martes",
+    hours_closed_label:   "Cerrado",
 
     map_placeholder: "Abrir en Google Maps",
     map_btn:         "Cómo Llegar",
@@ -375,11 +421,12 @@ const TRANSLATIONS = {
     brand:        "Cindy Hair",
     nav_home:     "首页",
     nav_services: "服务",
+    nav_about:    "关于我",
     nav_gallery:  "作品集",
     nav_contact:  "联系我们",
 
     hero_eyebrow:     "高端美发沙龙",
-    hero_title:       "让发丝<br><em>成为艺术</em>",
+    hero_title:       "Cindy<br><em>Hair Salon</em>",
     hero_subtitle:    "专业发型设计，完美契合您的独特风格。从经典剪裁到亮丽染色与大胆变身——我们让您的想象成为现实。",
     hero_cta_gallery: "查看作品",
     hero_cta_contact: "立即联系",
@@ -396,6 +443,20 @@ const TRANSLATIONS = {
     gallery_title:    "我们的作品",
     gallery_subtitle: "精选在沙龙用心打造的发型设计。",
 
+    about_eyebrow:      "关于我",
+    about_title:        "认识Cindy",
+    about_lead:         "对美发充满热情，致力于让每位顾客都能展现最自信的一面 — 这就是驱动Cindy每天前行的动力。",
+    about_stat_years:   "年从业经验",
+    about_stat_clients: "满意顾客",
+    about_stat_passion: "热情",
+    about_belief_title: "我的理念",
+    about_belief:       "发型不仅仅是一种造型——它是你内心世界的表达。我相信每个人都值得拥有一个让自己感到美丽、被看见、真正做自己的发型。我会用心聆听，了解你的生活方式，为你量身打造独一无二的造型。",
+    tag_cuts:      "精准剪发",
+    tag_color:     "染发专家",
+    tag_balayage:  "Balayage专家",
+    tag_bridal:    "新娘造型",
+    tag_keratin:   "角蛋白护理",
+
     filter_all:        "全部",
     filter_cut:        "剪发",
     filter_color:      "染发",
@@ -409,13 +470,13 @@ const TRANSLATIONS = {
     contact_title:        "来访沙龙",
     contact_subtitle:     "欢迎您的到来。接受散客——建议提前预约。",
     contact_address_label:"地址",
-    contact_address:      "123 Blossom Lane, Suite 4<br>旧金山, CA 94102",
+    contact_address:      "2836 San Bruno Ave<br>旧金山, CA 94134",
     contact_phone_label:  "电话",
     contact_hours_label:  "营业时间",
-    contact_social_label: "关注我们",
-    hours_mon_fri:        "周一 – 周五",
-    hours_sat:            "周六",
+    hours_mon_sat:        "周一、周三 – 周六",
     hours_sun:            "周日",
+    hours_tue:            "周二",
+    hours_closed_label:   "休息",
 
     map_placeholder: "在谷歌地图中打开",
     map_btn:         "获取路线",
@@ -551,12 +612,10 @@ function renderServices(lang) {
   grid.innerHTML = t.services.map(s => `
     <article class="service-card reveal" role="listitem">
       <div class="service-icon" aria-hidden="true">${s.icon}</div>
-      <h3 class="service-name">${s.name}</h3>
-      <p  class="service-desc">${s.desc}</p>
-      <span class="service-price">
-        <i class="fa-solid fa-tag" aria-hidden="true"></i>
-        ${s.price}
-      </span>
+      <div class="service-body">
+        <h3 class="service-name">${s.name}</h3>
+        <p  class="service-desc">${s.desc}</p>
+      </div>
     </article>
   `).join("");
 
